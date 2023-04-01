@@ -32,10 +32,17 @@ public class Program {
 			System.out.println(obj + "\n");
 		}
 		
+<<<<<<< HEAD
 		System.out.println("\n------ TESTE 4: seller insert -----");
 		Seller newSeller = new Seller(null, "Orlando Torres", "orlandot@gmail.com", new Date(), 2300.00, department);
 		sellerDao.insert(newSeller);
 		System.out.println(newSeller);
+=======
+		//System.out.println("\n------ TESTE 4: seller insert -----");
+		//Seller newSeller = new Seller(null, "Orlando Torres", "orlandot@gmail.com", new Date(), 2300.00, department);
+		//sellerDao.insert(newSeller);
+		//System.out.println(newSeller);
+>>>>>>> 5136be0c94dba462bbdfe9d36d9313bc21b54437
 		
 		System.out.println("\n------ TESTE 5: seller update -----");
 		seller = sellerDao.findById(1);
